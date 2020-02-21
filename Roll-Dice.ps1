@@ -3,7 +3,14 @@
     $argument_array = $args[0].split("d")
     $number_of_dice = $argument_array[0]
     $dice_type = $argument_array[1]
-    Write-Output "Rolling $($number_of_dice)d$($dice_type)"
+    
+    $total
+    for ($i = 0; $i -lt $number_of_dice; $i++)
+    {
+        $total += Get-Random -Minimum 1 -Maximum $dice_type
+    }
+
+    Write-Output $total
 }
 else
 {
