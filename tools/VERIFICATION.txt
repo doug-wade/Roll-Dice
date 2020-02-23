@@ -1,0 +1,4 @@
+﻿VERIFICATION
+rolldice is a fairly simple Powershell script. If you are concerned that it may have been corrupted
+or cracked in some way, compare the script installed with the script in the source repository, at
+https://github.com/doug-wade/Roll-Dice/blob/master/Roll-Dice.ps1
