@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>rolldice</id>
+    <version>0.0.1</version>
+    <packageSourceUrl>https://github.com/doug-wade/Roll-Dice</packageSourceUrl>
+    <owners>Doug Wade</owners>-->
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <!-- This section is about the software itself -->
+    <title>rolldice (Install)</title>
+    <authors>Doug Wade</authors>
+    <projectUrl>https://github.com/doug-wade/Roll-Dice</projectUrl>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/rolldice.png</iconUrl>-->
+    <copyright>2020 Doug Wade</copyright>
+    <licenseUrl>https://github.com/doug-wade/Roll-Dice/blob/master/tools/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <projectSourceUrl>https://github.com/doug-wade/Roll-Dice</projectSourceUrl>
+    <docsUrl>https://github.com/doug-wade/Roll-Dice/blob/master/README.md</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/doug-wade/Roll-Dice/issues</bugTrackerUrl>
+    <tags>rolldice roll dice dungeons dragons d&d dnd</tags>
+    <summary>__REPLACE__</summary>
+    <description>
+      Roll-Dice rolls virtual dice. The dice string passed on the command line contain information on the dice to
+      roll in a format comparable to the formate used in most role playing games.
+    </description>
+    <releaseNotes>
+      ## 0.0.1
+      Initial Release
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
